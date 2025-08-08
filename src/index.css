@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.RegisterFormBg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.RegisterForm{
+  z-index: 999;
+  background: #fff;
+}
+
+.RefrigeratorPageBgWrapper{
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.RefrigeratorPageBg{
+  width: 500px;
+}
+
+.RefrigeratorPageTextField{
+  width: 500px;
+}
+.RefrigeratorContainer{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+
+.productListWrapper{
+  max-width: 400px;
+  position: absolute;
+  display: flex;
+  top: 120px;
+  left: 30px;
+  flex-wrap: wrap;
+}
+
+.RefrigeratorContainerff{
+  width: 40vw;
+}
+
+.Buttonfdsfsd{
+  width: 20vw;
+}
+
+.RecipeFinderClass{
+  width: 40vw;
+  max-height: calc(100vh - 200px);
+  overflow: hidden;
+}
+
+.fsdfsd{
+  width: fit-content;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  max-width: calc(100vw - 100px);
+}
